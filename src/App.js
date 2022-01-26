@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Component/Header';
 
 function App() {
+  return (
+    <Header />
+  );
+
+}
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,11 +22,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn YU-GI-OH !!!
         </a>
       </header>
     </div>
   );
-}
+}*/
 
 export default App;
